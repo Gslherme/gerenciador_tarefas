@@ -1,0 +1,3 @@
+C:/Users/grslh/OneDrive/Compartilhado/Programação/C/gerenciador_tarefas/cmake-build-debug/CMakeFiles/gerenciador_tarefas.dir
+C:/Users/grslh/OneDrive/Compartilhado/Programação/C/gerenciador_tarefas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/grslh/OneDrive/Compartilhado/Programação/C/gerenciador_tarefas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
