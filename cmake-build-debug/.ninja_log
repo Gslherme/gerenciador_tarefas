@@ -1,9 +1,18 @@
 # ninja log v6
-5	127	7731207120496188	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	64c7724588b489f
-130	385	7731207121748230	gerenciador_tarefas.exe	89466d98be9820e3
-37	155	7731208254461292	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	64c7724588b489f
-156	303	7731208255649473	gerenciador_tarefas.exe	89466d98be9820e3
-29	165	7731222626872003	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	64c7724588b489f
-9	158	7731223501292741	gerenciador_tarefas.exe	89466d98be9820e3
-19	121	7731224751347311	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	64c7724588b489f
-122	323	7731224752374081	gerenciador_tarefas.exe	89466d98be9820e3
+11	1155	7732166304647904	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+1156	1851	7732166316098756	gerenciador_tarefas.exe	89466d98be9820e3
+13	1151	7732766824611857	build.ninja	b78e34c9ce7d5b6a
+29	385	7732859131255624	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+386	681	7732859134819556	gerenciador_tarefas.exe	89466d98be9820e3
+9	129	7732883447367817	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+131	305	7732883448582570	gerenciador_tarefas.exe	89466d98be9820e3
+8	130	7732889923603921	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+131	311	7732889924834886	gerenciador_tarefas.exe	89466d98be9820e3
+7	105	7732889999704732	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+106	201	7732890000695164	gerenciador_tarefas.exe	89466d98be9820e3
+7	102	7732891987462953	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+103	192	7732891988417604	gerenciador_tarefas.exe	89466d98be9820e3
+9	117	7732919648888644	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+118	255	7732919649977661	gerenciador_tarefas.exe	89466d98be9820e3
+6	97	7732920373832760	CMakeFiles/gerenciador_tarefas.dir/main.c.obj	75b476c704e26e5c
+97	181	7732920374738007	gerenciador_tarefas.exe	89466d98be9820e3

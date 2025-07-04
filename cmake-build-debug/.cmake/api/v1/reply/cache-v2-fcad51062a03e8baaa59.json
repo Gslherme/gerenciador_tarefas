@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/C/gerenciador_tarefas/cmake-build-debug"
+			"value" : "c:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/GitHub/gerenciador_tarefas/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "31"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -394,6 +394,22 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_EXPORT_BUILD_DATABASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of build database during the build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
 			"properties" : 
 			[
@@ -431,7 +447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/C/gerenciador_tarefas/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/GitHub/gerenciador_tarefas/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +519,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/C/gerenciador_tarefas"
+			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/GitHub/gerenciador_tarefas"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -883,7 +899,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.31"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1126,6 +1142,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "_CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[
@@ -1147,7 +1175,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/C/gerenciador_tarefas/cmake-build-debug"
+			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/GitHub/gerenciador_tarefas/cmake-build-debug"
 		},
 		{
 			"name" : "gerenciador_tarefas_IS_TOP_LEVEL",
@@ -1171,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/C/gerenciador_tarefas"
+			"value" : "C:/Users/grslh/OneDrive/Compartilhado/Programa\u00e7\u00e3o/GitHub/gerenciador_tarefas"
 		}
 	],
 	"kind" : "cache",
