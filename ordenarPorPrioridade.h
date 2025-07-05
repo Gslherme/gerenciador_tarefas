@@ -3,6 +3,7 @@
 
 #include "global.h"
 
+// Ordena lista de tarefas por prioridade (maior prioridade primeiro)
 void ordenarPorPrioridade(Tarefa *lista[], int qtd) {
     for (int i = 0; i < qtd - 1; i++) {
         for (int j = i + 1; j < qtd; j++) {

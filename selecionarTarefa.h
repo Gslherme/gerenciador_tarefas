@@ -5,6 +5,7 @@
 #include "editarTarefa.h"
 #include "excluirTarefa.h"
 
+// Permite visualizar e editar uma tarefa específica
 void selecionarTarefa(int numTarefa) {
     char resposta, status;
 
@@ -22,10 +23,10 @@ void selecionarTarefa(int numTarefa) {
     resposta = getch();
 
     if (resposta == 'E' || resposta == 'e') {
-        editarTarefa(numTarefa);
+        editarTarefa(numTarefa);  // Edita tarefa
 
     } else if (resposta == 'D' || resposta == 'd') {
-        excluirTarefa(numTarefa);
+        excluirTarefa(numTarefa);  // Exclui tarefa
         return;
 
     } else if (resposta == 'A' || resposta == 'a') {
@@ -50,7 +51,7 @@ void selecionarTarefa(int numTarefa) {
 
     }
 
-    selecionarTarefa(numTarefa);
+    selecionarTarefa(numTarefa);  // Reexibe menu da tarefa
 
 }
 

@@ -3,6 +3,7 @@
 
 #include "global.h"
 
+// Função que salva todas as tarefas em um arquivo CSV
 void salvarDados() {
     FILE *arquivo = fopen("tarefas.csv", "w");
     if (!arquivo) {
@@ -11,6 +12,7 @@ void salvarDados() {
 
     }
 
+    // Escreve cabeçalho do CSV
     fprintf(arquivo, "ID,Nome,Descricao,DataLimite,Prioridade,Concluida\n");
     for (int i = 0; i < qtTarefas; i++) {
         fprintf(arquivo, "%d,%s,%s,%s,%d,%d\n",
