@@ -15,4 +15,7 @@ add_executable(gerenciador_tarefas main.c
         imprimirLista.h
         listarTarefasConcluidas.h
         listarPorPalavraChave.h
-        pesquisarPalavraChave.h)
+        pesquisarPalavraChave.h
+        compararDatas.h
+        ordenarPorData.h
+        ordenarPorPrioridade.h)

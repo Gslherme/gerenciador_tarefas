@@ -12,7 +12,7 @@ void listarTarefasConcluidas() {
     system("cls");
     printf("LISTA DE TAREFAS CONCLUIDAS\n\n");
 
-    imprimirLista(1);
+    imprimirLista(1, 3);
 
     printf("\nDeseja alterar o status de uma tarefa para pendente? (S/N) \n");
     resposta = getch();

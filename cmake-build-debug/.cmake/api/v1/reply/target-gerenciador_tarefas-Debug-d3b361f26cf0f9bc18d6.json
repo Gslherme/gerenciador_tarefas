@@ -107,7 +107,10 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13,
+				14,
+				15
 			]
 		}
 	],
@@ -177,6 +180,21 @@
 		{
 			"backtrace" : 1,
 			"path" : "pesquisarPalavraChave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "compararDatas.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ordenarPorData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ordenarPorPrioridade.h",
 			"sourceGroupIndex" : 1
 		}
 	],
