@@ -1,22 +1,19 @@
-#ifndef LISTARTAREFAS_H
-#define LISTARTAREFAS_H
+#ifndef LISTARTAREFASPENDENTES_H
+#define LISTARTAREFASPENDENTES_H
 
 #include "global.h"
 #include "selecionarTarefa.h"
 #include "procurarPorId.h"
+#include "imprimirLista.h"
 
-void listarTarefas() {
+void listarTarefasPendentes() {
     char resposta;
     int id, numTarefa;
 
     system("cls");
-    printf("LISTA DE TAREFAS\n\n");
-    printf("\tID\t|Titulo              |Data Limite\t|Prioridade\t|Status\n");
+    printf("LISTA DE TAREFAS PENDENTES\n\n");
 
-    for (int i = 0; i < qtTarefas; i++) {
-        printf("\t%02d\t|%-20.20s|%s\t|%d\t\t|%s\n", tarefas[i]->id, tarefas[i]->nome, tarefas[i]->dataLimite, tarefas[i]->prioridade, tarefas[i]->concluida ? "Concluida" : "Pendente");
-
-    }
+    imprimirLista(0);
 
     printf("\nDeseja selecionar uma tarefa? (S/N) \n");
     resposta = getch();
@@ -46,7 +43,7 @@ void listarTarefas() {
 
     }
 
-    listarTarefas();
+    listarTarefasPendentes();
 
 }
 

@@ -1,4 +1,9 @@
 ID,Nome,Descricao,DataLimite,Prioridade,Concluida
 1,Lavar a louca para a minha mae,Preciso lavar a louca para a minha mae,2025-07-10,5,0
-2,Fritar batata,Teste 2,2025-07-19,3,0
+2,Fritar batata,Teste 2,2025-07-19,3,1
 3,Correr,Correr na segunda,2025-07-10,5,0
+4,Estudar C,Revisar ponteiros e structs para a prova,2025-07-08,4,0
+5,Ir ao mercado,Comprar arroz leite e pao,2025-07-07,2,1
+6,Ler livro,Terminar capitulo 4 do livro de algoritmos,2025-07-12,3,0
+7,Arrumar o quarto,Organizar roupas e gavetas,2025-07-09,2,1
+8,Pagar contas,Pagar agua e luz pelo app do banco,2025-07-05,4,1

@@ -5,7 +5,9 @@
 
 #include "global.h"
 #include "adicionarTarefa.h"
-#include "listarTarefas.h"
+#include "listarTarefasPendentes.h"
+#include "listarTarefasConcluidas.h"
+#include "pesquisarPalavraChave.h"
 
 void inicializa() {
     FILE *arquivo = fopen("tarefas.csv", "r");
@@ -41,7 +43,7 @@ int main() {
 
     while (1) {
         system("cls");
-        printf("MENU\n\n   1. Adicionar tarefa \n   2. Listar tarefas\n   3. Sair \n\nDigite a opcao desejada: ");
+        printf("MENU\n\n   1. Adicionar tarefa\n   2. Listar tarefas pendentes\n   3. Listar tarefas concluidas\n   4. Procurar por palavra-chave\n   5. Sair \n\nDigite a opcao desejada: ");
         opcao_ch = getch();
         opcao_int = opcao_ch - '0';
 
@@ -51,10 +53,18 @@ int main() {
                 break;
 
             case 2:
-                listarTarefas();
+                listarTarefasPendentes();
                 break;
 
             case 3:
+                listarTarefasConcluidas();
+                break;
+
+            case 4:
+                pesquisarPalavraChave();
+                break;
+
+            case 5:
                 system("cls");
                 printf("Obrigado por usar o programa! \n\n");
                 for (int i = 0; i < qtTarefas; i++) {
