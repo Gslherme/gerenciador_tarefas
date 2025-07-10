@@ -17,43 +17,24 @@ FUNCIONALIDADES ATUAIS
 
 ESTRUTURA DO PROJETO
 
-gerenciador_tarefas/
-- main.c
-# Arquivo principal com menu e fluxo do programa
-- adicionarTarefa.h
-# Lógica para adicionar tarefas
-- editarTarefa.h
-# Edição de nome, descrição, data e prioridade
-- excluirTarefa.h
-# Exclusão com realocação de memória
-- listarTarefasPendentes.h
-# Lista pendentes com ordenação opcional
-- listarTarefasConcluidas.h
-# Lista concluídas com opção de reverter status
-- ordenarPorData.h
-# Função de ordenação por data (usando strcmp)
-- ordenarPorPrioridade.h
-# Função de ordenação por prioridade (decrescente)
-- selecionarTarefa.h
-# Menu para editar/excluir/status individual
-- salvarDados.h
-# Escrita do CSV
-- procurarPorId.h
-# Localização da tarefa via ID
-- imprimirLista.h
-# Impressão formatada da lista de tarefas
-- listarPorPalavraChave.h
-# Filtro de tarefas com base em palavra-chave
-- pesquisarPalavraChave.h
-# Entrada da palavra-chave e interface
-- compararDatas.h
-# Comparação simples entre datas (AAAA-MM-DD)
-- global.h
-# Definições globais: struct Tarefa e vetor de ponteiros
-- tarefas.csv
-# Arquivo de persistência
-- CMakeLists.txt (opcional)
-# Para compilar com CMake
+- main.c - Arquivo principal com menu e fluxo do programa
+- adicionarTarefa.h - Lógica para adicionar tarefas
+- editarTarefa.h - Edição de nome, descrição, data e prioridade
+- excluirTarefa.h - Exclusão com realocação de memória
+- listarTarefasPendentes.h - Lista pendentes com ordenação opcional
+- listarTarefasConcluidas.h - Lista concluídas com opção de reverter status
+- ordenarPorData.h - Função de ordenação por data (usando strcmp)
+- ordenarPorPrioridade.h - Função de ordenação por prioridade (decrescente)
+- selecionarTarefa.h - Menu para editar/excluir/status individual
+- salvarDados.h - Escrita do CSV
+- procurarPorId.h - Localização da tarefa via ID
+- imprimirLista.h - Impressão formatada da lista de tarefas
+- listarPorPalavraChave.h - Filtro de tarefas com base em palavra-chave
+- pesquisarPalavraChave.h - Entrada da palavra-chave e interface
+- compararDatas.h - Comparação simples entre datas (AAAA-MM-DD)
+- global.h - Definições globais: struct Tarefa e vetor de ponteiros
+- tarefas.csv - Arquivo de persistência
+- CMakeLists.txt (opcional) - Para compilar com CMake
 
 REQUISITOS
 
